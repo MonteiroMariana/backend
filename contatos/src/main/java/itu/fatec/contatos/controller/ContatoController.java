@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.*;
 import itu.fatec.contatos.model.Contato;
 import itu.fatec.contatos.service.ContatoService;
 
-@CrossOrigin(origins =  "https://master.d1imbbo311fsdx.amplifyapp.com")
+@CrossOrigin(origins = { 
+    "http://localhost:4200",
+    "https://master.d1imbbo311fsdx.amplifyapp.com"
+})
 @RestController
 @RequestMapping("/contatos")
 public class ContatoController {
