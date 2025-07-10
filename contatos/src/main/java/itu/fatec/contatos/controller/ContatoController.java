@@ -12,8 +12,11 @@ import itu.fatec.contatos.service.ContatoService;
 
 @CrossOrigin(origins = { 
     "http://localhost:4200",
-    "https://master.d1imbbo311fsdx.amplifyapp.com"
+    "https://master.d1imbbo311fsdx.amplifyapp.com",
+    "https://javacontato.duckdns.org:8080/contatos"
+
 })
+    
 @RestController
 @RequestMapping("/contatos")
 public class ContatoController {
