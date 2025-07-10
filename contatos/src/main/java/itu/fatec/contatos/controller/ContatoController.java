@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import itu.fatec.contatos.model.Contato;
 import itu.fatec.contatos.service.ContatoService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://javacontato.duckdns.org/contatos")
 @RestController
 @RequestMapping("/contatos")
 public class ContatoController {
